@@ -1,5 +1,10 @@
-#odd {
+.odd-first {
     background-color: lightpink;
     font-family: Verdana, sans-serif;
 
+}
+
+#even-first {
+    color: blue;
+    font-size: 36px
 }

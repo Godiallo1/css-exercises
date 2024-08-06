@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -23,4 +24,30 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 8px;
+  gap: 16px;
+  align-items: center;
+}
+
+.plants-desc-and-images {
+  display: flex;
+  gap: 32px;
+}
+
+.title {
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.barberry, .chili, .pepper, .saffron {
+  /* flex-flow: column; */
+  /* align-content: space-between; */
+  /* gap: 32px; */
+  max-width: 200px;
 }
